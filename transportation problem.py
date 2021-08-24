@@ -15,6 +15,7 @@ space_in_a_bus = 20.0
 drivers = 30
 passengers = 130
 
+#here if we didnt convert buses_not_driven into str in print statement it would throw error because we cannot combines two different types ( string and number)
 buses_not_driven =buses-drivers
 print("The no of buses_not_driven_are" + str(buses_not_driven))
 
